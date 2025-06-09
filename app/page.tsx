@@ -108,7 +108,9 @@ export default function Home() {
             muted
             playsInline
             style={{ display: "block" }}
-          />
+          >
+            Your browser does not support the video tag or the video cannot be loaded.
+          </video>
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end pointer-events-none rounded-xl">
         <div className="p-6 text-white">
           <h3 className="text-2xl font-bold mb-2">Intuitive Dashboard</h3>
