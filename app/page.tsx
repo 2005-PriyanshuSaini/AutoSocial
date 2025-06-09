@@ -96,26 +96,20 @@ export default function Home() {
 
       {/* Demo Image */}
       <section className="container max-w-6xl mx-auto px-4 py-8">
-        <div className="relative rounded-xl shadow-2xl bg-white overflow-hidden">
-          <video
-            src="/main-video.mp4"
-            poster="/Landing page.png"
-            width={1200}
-            height={675}
-            className="w-full h-auto rounded-xl"
-            autoPlay
-            loop
-            muted
-            playsInline
-            style={{ display: "block" }}
-          >
-            Your browser does not support the video tag or the video cannot be loaded.
-          </video>
+        <div className="relative rounded-xl shadow-2xl bg-white overflow-hidden" style={{ padding: "56.25% 0 0 0", position: "relative" }}>
+          <iframe
+            src="https://player.vimeo.com/video/1091765193?autoplay=1&muted=0&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+            title="Main video - Made with Clipchamp"
+          ></iframe>
+          {/* Optionally, you can include the overlay as before */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end pointer-events-none rounded-xl">
-        <div className="p-6 text-white">
-          <h3 className="text-2xl font-bold mb-2">Intuitive Dashboard</h3>
-          <p className="text-white/90">Monitor all your social activities from one place</p>
-        </div>
+            <div className="p-6 text-white">
+              <h3 className="text-2xl font-bold mb-2">Intuitive Dashboard</h3>
+              <p className="text-white/90">Monitor all your social activities from one place</p>
+            </div>
           </div>
         </div>
       </section>
