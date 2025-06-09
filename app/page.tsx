@@ -98,16 +98,16 @@ export default function Home() {
       <section className="container max-w-6xl mx-auto px-4 py-8">
         <div className="relative rounded-xl shadow-2xl bg-white overflow-hidden">
           <video
-        src="/Main video - Made with Clipchamp.mp4"
-        poster="/Landing page.png"
-        width={1200}
-        height={675}
-        className="w-full h-auto rounded-xl"
-        autoPlay
-        loop
-        muted
-        playsInline
-        style={{ display: "block" }}
+            src="/main-video.mp4"
+            poster="/Landing page.png"
+            width={1200}
+            height={675}
+            className="w-full h-auto rounded-xl"
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ display: "block" }}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end pointer-events-none rounded-xl">
         <div className="p-6 text-white">
